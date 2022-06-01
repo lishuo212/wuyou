@@ -60,11 +60,17 @@ function zzi() {
     aatt.onclick = function () {
         if (ntop.test(in_1.value) && in_2.value == orr && ttym.test(in_3.value)) {
             alert('注册成功');
-            window.location.href = '10/10.html';
+            setCookie('name', in_1.value);
+            setCookie('yz', in_2.value);
+            setCookie('pas', in_3.value);
+            window.location.href = '../11/11.html';
         } else {
             alert('注册失败');
         }
     }
+
+
+
     function setCookie(key, val, time) {
 
         var date = new Date();

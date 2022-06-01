@@ -372,3 +372,119 @@ nav>a:nth-of-type(1) {
     font-weight: 900;
     color: rgb(251, 138, 25);
 }
+
+#req {
+    list-style: none;
+}
+
+#req>ul {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+#req>ul>li {
+    width: 100%;
+
+    background-color: rgb(47, 49, 48);
+}
+
+#req>ul>li>p {
+    margin-left: 3rem;
+    line-height: 4rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: rgb(123, 136, 144);
+}
+
+.wee {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+
+.wee>li {
+    background-color: rgb(47, 49, 48);
+    width: 100%;
+    height: 13rem;
+}
+
+.wee>li>img {
+    float: left;
+    margin-left: 7rem;
+    width: 20%;
+    height: 51%;
+}
+
+.wee>li>p {
+    margin-left: 15rem;
+    margin-top: 2rem;
+    color: rgb(131, 149, 148);
+    font-size: 1.6rem;
+}
+
+.oiu {
+    text-align: center;
+    line-height: 5rem;
+}
+
+/* 固定定位 */
+#rt {
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+#rt>ul {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+
+#rt>ul>li {
+    width: 100%;
+    height: 7rem;
+}
+
+.ssdf {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#rt>ul>li>img {
+    width: 35%;
+    height: 6rem;
+    margin-left: 9rem;
+    margin-top: 0.5rem;
+}
+
+#rt>ul>li>a>img {
+    width: 5%;
+    height: 3rem;
+    position: absolute;
+    top: 1%;
+}
+
+.weeq {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.weeq>h1 {
+    font-weight: 500;
+    font-size: 2.6rem;
+}
+
+.weeq>p {
+    font-size: 1.6rem;
+}
+
+.qwe {
+    color: white;
+    font-size: 2.6rem;
+    background-color: rgb(255, 138, 0);
+    line-height: 7rem;
+    text-align: center;
+}
