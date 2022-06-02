@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 10px;
+    background-color: rgb(245, 245, 245);
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(251, 138, 25);
+    position: relative;
+}
+
+header>img:nth-of-type(1) {
+    width: 20%;
+    height: 5rem;
+    position: absolute;
+    left: 10%;
+}
+
+header>a>img {
+    width: 6%;
+    height: 4rem;
+    position: absolute;
+    right: 21%;
+    top: 11%;
+}
+
+header>img:nth-of-type(2) {
+    width: 6%;
+    height: 4rem;
+    position: absolute;
+    right: 14%;
+    top: 11%;
+}
+
+nav {
+    width: 100%;
+    height: 4rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-indent: 1rem;
+}
+
+nav>a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(124, 122, 122);
+}
+
+nav>a:nth-of-type(1) {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: black;
+}
+
+.dit {
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    display: flex;
+}
+
+.dit>div {
+    width: 50%;
+    height: 95%;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2rem;
+    border-bottom: 0.3rem solid #999;
+}
+
+.dit>.a {
+    border-bottom: 0.3rem solid rgb(251, 138, 25);
+}
+
+.uuin {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.uuin>li {
+    width: 100%;
+    border: 1px solid #999;
+    height: 4rem;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.uuin>li>input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    text-indent: 3rem;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.uuin>li>button {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    z-index: 22;
+    width: 20%;
+    height: 3rem;
+    line-height: 3rem;
+    border: 1px solid #999;
+    background-color: rgb(255, 255, 255);
+}
+
+.aati {
+    width: 89%;
+    height: 5rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 1rem auto;
+    text-align: center;
+    line-height: 5rem;
+    background-color: rgb(251, 138, 25);
+}
+
+.ccn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ccn>a {
+    text-decoration: none;
+}
+
+.ccn>a:nth-of-type(1) {
+    color: rgb(251, 138, 25);
+}
+
+.ccn>a:nth-of-type(2) {
+    color: black;
+}
+
+.nvi {
+    display: none;
+}

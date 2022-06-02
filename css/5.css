@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 10px;
+    background-color: rgb(245, 245, 245);
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(251, 138, 25);
+    position: relative;
+}
+
+header>img:nth-of-type(1) {
+    width: 20%;
+    height: 5rem;
+    position: absolute;
+    left: 10%;
+}
+
+header>a>img {
+    width: 6%;
+    height: 4rem;
+    position: absolute;
+    right: 21%;
+    top: 11%;
+}
+
+header>img:nth-of-type(2) {
+    width: 6%;
+    height: 4rem;
+    position: absolute;
+    right: 14%;
+    top: 11%;
+}
+
+nav {
+    width: 100%;
+    height: 4rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-indent: 1rem;
+}
+
+nav>a {
+    font-size: 1.3rem;
+    color: rgb(124, 122, 122);
+    text-decoration: none;
+}
+
+nav>a:nth-of-type(1) {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: black;
+}
+
+.inp {
+    width: 94%;
+    height: 6rem;
+    background-color: #fff;
+    margin: 1rem auto;
+    display: flex;
+}
+
+.inp>input {
+    width: 80%;
+    height: 100%;
+    margin-top: 0rem;
+    outline: none;
+    border: 0;
+}
+
+.inp>button {
+    width: 20%;
+    height: 100%;
+    border: 0;
+    background-color: #fff;
+}
+
+.inp>span {
+    width: 0.1rem;
+    height: 2.5rem;
+    background-color: #999;
+    margin-top: 1.5rem;
+}
+
+.inp>button>img {
+    width: 33%;
+    height: 62%;
+}
+
+.azz {
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    /* justify-content: space-evenly; */
+}
+
+.nt {
+    width: 25%;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 5rem;
+    position: relative;
+}
+
+.azz>.zzh {
+    width: 100%;
+    height: 73rem;
+    display: none;
+    position: absolute;
+    top: 5rem;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.azz>.nt>span {
+    display: block;
+    border-bottom: 0.5rem solid transparent;
+    border-top: 0.5rem solid #999;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+}
+
+.azz>.uzi {
+    width: 100%;
+    height: 55rem;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    top: 5rem;
+    left: 0rem;
+}
+
+/* 测试其他跳转页 */
+/* .azz>.ti {
+    display: block;
+} */
+
+.uzi>.atu {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.uzi>.atu>li {
+    width: 89%;
+    font-size: 2rem;
+    border-bottom: 1px solid #999;
+    line-height: 7rem;
+}
+
+.uzi>.atu>.zztin {
+    color: rgb(251, 138, 25);
+}
+
+.uzi>.ntoo {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.uzi>.ntoo>li {
+    width: 89%;
+    font-size: 2rem;
+    border-bottom: 1px solid #999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 7rem;
+}
+
+.uzi>.ntoo>li>p {
+    width: 100%;
+}
+
+.uzi>.ntoo>li>span {
+    width: 23%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    text-align: center;
+    display: block;
+}
+
+/* 设置更多点击字体样式 */
+.uzi>.ntoo>li>.asn {
+    color: rgb(251, 138, 25);
+    border: 1px solid rgb(251, 138, 25);
+}
+
+.uzi>.ntoo>li:nth-of-type(3) {
+    border: 0;
+}
+
+.uzi>.atu>li:nth-of-type(7) {
+    width: 89%;
+    height: 7rem;
+    line-height: 7rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: 2rem;
+    color: #fff;
+    border: 0;
+    background-color: rgb(251, 138, 25);
+}
+
+.uzi>.atu>li>.ouiid {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #999;
+    margin-top: 5%;
+    transform: translateX(-50%);
+    margin-right: 6%;
+    float: right;
+}
+
+/* 设置房型点击样式 */
+.uzi>.atu>li>#ddodu {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #999;
+    margin-top: 5%;
+    transform: translateX(-50%);
+    margin-right: 6%;
+    float: right;
+    border: 1px solid rgb(251, 138, 25);
+    background: url(../image/SecondHandList/ok.png) no-repeat 57% 50%;
+    background-size: 57% 57%;
+}
+
+.uzi>.atu>li:nth-of-type(7) {
+    border: 0;
+}
+
+/* 到此结束 */
+.uzi>.oui {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+.oui>div {
+    width: 100%;
+    height: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.iio {
+    color: rgb(251, 138, 25);
+    background-color: #fff;
+}
+
+.uzi>.tti {
+    width: 37%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    position: absolute;
+    top: 0rem;
+    left: 25%;
+}
+
+.uzi>.tti>li {
+    text-align: center;
+    width: 100%;
+    line-height: 7rem;
+    font-size: 2rem;
+}
+
+.uzi>.tt_0 {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    position: absolute;
+    top: 0rem;
+    left: 50%;
+    display: none;
+}
+
+/* .uzi>.tt_3 {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+} */
+
+.uzi>.tt_0>div {
+    text-align: center;
+    width: 100%;
+    line-height: 7rem;
+    font-size: 2rem;
+}
+
+/* 设置内容样式 */
+.dzui {
+    width: 100%;
+    height: 64rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dzui>li {
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(251, 138, 25);
+}
+
+.dzui>li>img {
+    width: 29%;
+    height: 61%;
+    margin-left: 1rem;
+}
+
+.dzui>li>.auti {
+    width: 60%;
+    height: 61%;
+    margin-left: 1rem;
+}
+
+.dzui>li>.auti>p {
+    font-size: 2rem;
+    font-weight: 800;
+    color: black;
+}
+
+.dzui>li>.auti>p>span {
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.dzui>li>.auti>.aaitou {
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: #999;
+}
+
+.dzui>li:nth-of-type(3) {
+    border: 0;
+}
+
+.dzui>li>.auti>.aaitou>span {
+    font-weight: 900;
+    color: rgb(251, 138, 25);
+}
+
+#req {
+    list-style: none;
+}
+
+#req>ul {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+#req>ul>li {
+    width: 100%;
+
+    background-color: rgb(47, 49, 48);
+}
+
+#req>ul>li>p {
+    margin-left: 3rem;
+    line-height: 4rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: rgb(123, 136, 144);
+}
+
+.wee {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+
+.wee>li {
+    background-color: rgb(47, 49, 48);
+    width: 100%;
+    height: 13rem;
+}
+
+.wee>li>img {
+    float: left;
+    margin-left: 7rem;
+    width: 20%;
+    height: 51%;
+}
+
+.wee>li>p {
+    margin-left: 15rem;
+    margin-top: 2rem;
+    color: rgb(131, 149, 148);
+    font-size: 1.6rem;
+}
+
+.oiu {
+    text-align: center;
+    line-height: 5rem;
+}
+
+/* 固定定位 */
+#rt {
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+#rt>ul {
+    list-style: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+
+#rt>ul>li {
+    width: 100%;
+    height: 7rem;
+}
+
+.ssdf {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#rt>ul>li>img {
+    width: 35%;
+    height: 6rem;
+    margin-left: 9rem;
+    margin-top: 0.5rem;
+}
+
+#rt>ul>li>a>img {
+    width: 5%;
+    height: 3rem;
+    position: absolute;
+    top: 1%;
+}
+
+.weeq {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.weeq>h1 {
+    font-weight: 500;
+    font-size: 2.6rem;
+}
+
+.weeq>p {
+    font-size: 1.6rem;
+}
+
+.qwe {
+    color: white;
+    font-size: 2.6rem;
+    background-color: rgb(255, 138, 0);
+    line-height: 7rem;
+    text-align: center;
+}
